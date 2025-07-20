@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { CardBody, CardContainer, CardItem } from './ui/3d-card';
-import { HoverEffect } from './ui/card-hover-effect';
+import { CardBody, CardContainer, CardItem } from './ui/ThreeDCard';
+import { HoverEffect } from './ui/CardHover';
 import TradingCard from './TradingCard';
 import { Line, LineChart, Area, AreaChart, ResponsiveContainer, XAxis, YAxis, Tooltip } from 'recharts';
 

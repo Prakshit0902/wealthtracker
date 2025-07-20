@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Rocket, Target, Clock, Award, Lock, CheckCircle } from 'lucide-react';
-import { BackgroundGradient } from './ui/background-gradient';
+import { BackgroundGradient } from './ui/BackgroundGradient';
 
 const SpaceMissions = ({ credits, setCredits, xp, setXp, setAchievements }) => {
   const [activeMissions, setActiveMissions] = useState([]);

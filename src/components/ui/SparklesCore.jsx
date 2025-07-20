@@ -3,7 +3,7 @@ import React, { useId } from "react";
 import { useEffect, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
-import { cn } from "../utils/cn"; // Adjust the import path as necessary
+import { cn } from "../../utils/cn"; // Adjust the import path as necessary
 import { motion, useAnimation } from "motion/react";
 
 export const SparklesCore = (props) => {

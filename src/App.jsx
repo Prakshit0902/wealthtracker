@@ -4,9 +4,9 @@ import Dashboard from './components/Dashboard';
 import Portfolio3D from './components/Portfolio3D';
 import SpaceMissions from './components/SpaceMissions';
 import Leaderboard from './components/Leaderboard';
-import { BackgroundBeams } from './components/ui/background-beams';
-import { FloatingNav } from './components/ui/floating-navbar';
-import { SparklesCore } from './components/ui/sparkles';
+import { BackgroundBeams } from './components/ui/BackgroundBeams';
+import { FloatingNav } from './components/ui/FloatingNav';
+import { SparklesCore } from './components/ui/SparklesCore';
 
 function App() {
   const [activeView, setActiveView] = useState('dashboard');
